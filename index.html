@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Mi primera web</title>
+     <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+     </style>
+</head>
+<body style="background-color:rgba(98, 57, 220, 0.51);" style="text-align:center;">
+    <h1 style="text-align: center;">PRACTICANDO HTML Y UN POCO DE CSS</h1>
+    <p style="text-align: center;">Este es un texto alineado</p> <br><hr>
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Es gratis</td>
+            </tr>
+            <tr>
+                <td>chanchito feliz</td>
+                <td>19.90</td>
+            </tr>
+            <tr>
+                <td>chanchito feliz muy feliz</td>
+                <td>29.00$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+                <td>Total: 49.80$</td>
+            
+        </tfoot>
+    </table>
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <ol>
+        <li>elemento 1</li>
+        <li>elemento 2></li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ol>
+    <ol>
+        <li value="50">elemento 1</li>
+        <li>elemento 2></li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+
+
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>mi tercer heading</h3>
+    <h4>cuatro</h4>
+    <h5>cinco</h5>
+    <h6>six</h6>
+    <p>Chanchito <strong>feliz</strong> esta muy feliz.    </p>
+    <p>chanchito triste esta muy triste</p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>texto un poco mas largo dkudkshkhfkkudf <span style="color:blue">ashdjasgdj</span>kjhdhkfhsdkfksdf <br> sdfhhksdfsdfkbb
+        skdfhdsfkh
+    </p>
+    <p>This cat, <em>Kitta Cat</em> is wonderful!! It is <strong>the best cat ever</strong></p>
+    <p>This is a lot of <mark>Fun</mark>!</p>
+    <p>ejemlo de subindice: H<sub>2</sub>O</p>
+    <p>ejemplo para <strike>tachar</strike> la palabra. o tb puedo usar <del>esto</del></p>
+    <p>no entiendo muy bien la etiqueta "q" porq, <q>es comillas?</q></p>
+    <blockquote cite="https://es.wikipedia.org/wiki/Meryl_Streep"> <p>Esto es una cita en bloque</p></blockquote>
+    <!-- etiqueta de comentario -->
+    <a target="_blank" href="https://www.google.com.ar">IR A GOOGLE</a> <br><br>
+    <img src="img/ellaesmagia.png.png" width="400" />
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="bruna" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input value="rojas" type="text" id="apellido" name="apellido" placeholder="apellido" />
+        <br><br>
+        <label for="comentario">Comentario</label>
+        <textarea rows="10" cols="80" id="comentario" placeholder="deja tu comentario" name="comentario">este es un valor por defectp</textarea>
+        <br><br>
+        <input type="submit"/>
+        <br><br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo boton</button>
+        <button type="submit">tipo boton</button>
+    </form>
+    <br> <br>
+    <p style="font-size: 2px;"> <pre>                esto es poesia bla ba; askafnnanfasnfajsfnkanf 
+        <br>            esto sigue siendo poesia blabla bla bla bla
+        <br>            sigue y sigue y sigue siendo lo mismo
+        <br>            tararararrararrararar
+    </pre> </p> <br><br><hr>
+    <h1><strong>Ejemplo de <em> blockquote </em></strong></h1>
+    <blockquote>
+        La primera regla del club de lucha es:
+        Nadie habla sobre el club de lucha.
+    </blockquote>
+    <hr><br>
+    <blockquote>
+        <p>La primera regla del club de lucha es: Nadie habla sobre el club de lucha.</p>
+        <p class="author">Tyler Durden en El Club de la Lucha</p>
+    </blockquote>
+    <hr><hr><br>
+    <blockquote cite="http://es.wikiquote.org/wiki/Fight_Club">
+        <p>La primera regla del Club de la Lucha es: Nadie habla sobre el Club de la Lucha.</p>
+        <footer>
+          <cite class="author">Tyler Durden</cite> en
+          <cite class="title">El Club de la Lucha</cite>
+        </footer>
+      </blockquote>
+      <hr><hr>
+      <hr><hr>
+    <blockquote city="https://psicologiaymente.com/reflexiones/frases-meryl-streep">
+        <p>Quiero sentir mi vida mientras estoy en ella</p>
+        <footer>Maryl Streep</footer>
+
+    </blockquote>
+    <hr><p><em>Ejemplo de una conversacion:</em></p>
+    <div class="page">
+        <div class="comment">
+          <strong>Paco</strong> <em>hace 5 horas</em>
+          <p>Me encanta esto.</p>
+      
+          <div class="comment">
+            <strong>Ana</strong> <em>hace 3 horas</em>
+            <blockquote><p>Me encanta esto</p></blockquote>
+            <p>¿Por qué lo dices?</p>
+      
+            <div class="comment">
+              <strong>Paco</strong> <em>hace 1 hora</em>
+              <blockquote>
+                <blockquote><p>Me encanta esto</p></blockquote>
+                <p>¿Por qué lo dices?</p>
+              </blockquote>
+              <p>Es que me parece fantástico.</p>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
